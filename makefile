@@ -9,6 +9,6 @@ CC = gcc
 #COMPILER_FLAGS = -w 
 #LINKER_FLAGS specifies the libraries we're linking against 
 LINKER_FLAGS = -lncurses #OBJ_NAME specifies the name of our exectuable 
-OBJ_NAME = cwargame #This is the target that compiles our executable 
+OBJ_NAME = cwargame.run #This is the target that compiles our executable 
 all : $(OBJS) 
 	$(CC) $(OBJS) $(COMPILER_FLAGS) $(LINKER_FLAGS) -o $(OBJ_NAME)
